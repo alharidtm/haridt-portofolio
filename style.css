@@ -340,11 +340,6 @@ h2::after {
     transition: border-color 180ms ease, box-shadow 180ms ease, transform 180ms ease;
 }
 
-.proyek-card:last-child {
-    grid-column: 1 / -1;
-    border-top-color: var(--accent);
-}
-
 .proyek-card:hover {
     transform: translateY(-3px);
     border-top-color: var(--accent);
@@ -594,8 +589,7 @@ h2::after {
         grid-template-columns: 1fr;
     }
 
-    #proyek h2,
-    .proyek-card:last-child {
+    #proyek h2 {
         grid-column: auto;
     }
 
