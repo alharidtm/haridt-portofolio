@@ -1,2 +1,2 @@
-Portofolio Al Haridt Mahmudi, S.Stat.
+#Portofolio Al Haridt Mahmudi, S.Stat.
  
