@@ -10,7 +10,9 @@
     <!-- Navigasi -->
     <nav class="navbar">
         <div class="container">
-            <h2 class="logo">Al Haridt Mahmudi</h2>
+            <a class="logo" href="#beranda" aria-label="Al Haridt Mahmudi - Beranda">
+                <img src="images/foto-profil.png" alt="">
+            </a>
             <ul class="nav-links">
                 <li><a href="#beranda">Beranda</a></li>
                 <li><a href="#tentang">Tentang</a></li>
@@ -26,13 +28,35 @@
     <!-- Beranda -->
     <section id="beranda" class="section beranda">
       <div class="container beranda-konten">
-        <div class="foto-profil-wrapper">
-            <img src="foto-profil.jpg" alt="Foto Al Haridt Mahmudi" class="foto-profil">
+        <div class="foto-carousel" aria-label="Galeri foto Al Haridt Mahmudi">
+            <div class="foto-carousel-viewport">
+                <div class="foto-carousel-track">
+                    <figure class="foto-carousel-slide">
+                        <img src="images/foto1.png" alt="Al Haridt Mahmudi berpose dengan tangan terlipat" class="foto-profil">
+                    </figure>
+                    <figure class="foto-carousel-slide">
+                        <img src="images/foto.png" alt="Al Haridt Mahmudi mengenakan jas" class="foto-profil">
+                    </figure>
+                </div>
+            </div>
+            <div class="foto-carousel-controls">
+                <button class="foto-carousel-arrow" type="button" data-direction="-1" aria-label="Lihat foto sebelumnya">←</button>
+                <div class="foto-carousel-dots" aria-label="Pilih foto">
+                    <button class="foto-carousel-dot is-active" type="button" aria-label="Tampilkan foto 1" aria-pressed="true"></button>
+                    <button class="foto-carousel-dot" type="button" aria-label="Tampilkan foto 2" aria-pressed="false"></button>
+                </div>
+                <span class="foto-carousel-count" aria-live="polite">01 / 02</span>
+                <button class="foto-carousel-arrow" type="button" data-direction="1" aria-label="Lihat foto berikutnya">→</button>
+            </div>
         </div>
-        <h1>Halo, Saya Al Haridt Mahmudi</h1>
+        <p class="eyebrow">DATA ANALYST</p>
+        <h1>Halo, Saya <span>Al Haridt Mahmudi</span></h1>
         <h3>S1 Statistika | Analis Data & Statistik</h3>
         <p>Mengubah data menjadi wawasan yang mendukung keputusan bisnis dan kebijakan yang tepat.</p>
-        <a href="#proyek" class="btn">Lihat Proyek Saya</a>
+        <div class="beranda-aksi">
+            <a href="#proyek" class="btn">Jelajahi Proyek <span aria-hidden="true">↗</span></a>
+            <a href="#kontak" class="btn btn-sekunder">Hubungi Saya</a>
+        </div>
       </div>
     </section>
 
@@ -41,7 +65,7 @@
         <div class="container">
             <h2>Tentang Saya</h2>
             <div class="tentang-konten">
-                <p>Lulusan Program Studi Statistika Universitas Syiah Kuala dengan IPK 3,7. Menguasai pengolahan data dan analisis kuantitatif untuk mengubah informasi menjadi wawasan yang mendukung keputusan strategis. Saya berfokus menghadirkan solusi berbasis data demi efisiensi operasional dan pertumbuhan bisnis yang berkelanjutan. Dengan kemampuan beradaptasi cepat dan integritas kerja yang tinggi, saya siap berkontribusi memberikan nilai tambah nyata bagi perusahaan.</p>
+                <p>Lulusan Statistika dengan pengalaman magang dalam pengolahan data dan pelaporan; terbiasa menggunakan Excel, R, dan Python untuk mendukung analisis bisnis. Fokus pada penyediaan solusi berbasis data untuk efisiensi bisnis dan standar keamanan operasional. Berpengalaman dalam administrasi data dan pelaporan dengan fokus pada ketelitian, ketepatan waktu, dan dukungan operasional, saya bertekad untuk memberikan nilai tambah bagi perusahaan melalui ketelitian analisis dan integritas kerja yang tinggi.</p>
             </div>
         </div>
     </section>
@@ -85,7 +109,9 @@
             <h2>Proyek Analisis Data</h2>
 
             <div class="proyek-card">
-                <h3>Segmentasi Pelanggan dengan Clustering</h3>
+                <img class="proyek-cover" src="assets/proyek-segmentasi.svg" alt="Ilustrasi segmentasi pelanggan dalam tiga kelompok data">
+                <h3><svg class="ikon-proyek" viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2"/><path d="M3 20v-2a6 6 0 0 1 12 0v2zm13-6a4 4 0 0 1 5 4v2h-3"/></svg>Segmentasi Pelanggan dengan Clustering</h3>
+                <div class="proyek-tags" aria-label="Topik proyek"><span>Clustering</span><span>Segmentasi</span><span>Data penjualan</span></div>
                 <p><strong><svg class="ikon-label" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v14H4zM8 9h8m-8 4h8m-8 4h5"/></svg>Deskripsi:</strong> Proyek ini mengelompokkan pelanggan berdasarkan data penjualan untuk mengidentifikasi segmen dengan karakteristik yang serupa. Hasil segmentasi membantu memberikan gambaran pola pelanggan sebagai dasar untuk menyusun strategi pemasaran dan layanan yang lebih tepat sasaran.</p>
                 <p><strong><svg class="ikon-label" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v18m7-14H9.5a3.5 3.5 0 0 0 0 7H15a3.5 3.5 0 0 1 0 7H5"/></svg>Metode:</strong> Clustering, eksplorasi dan visualisasi data</p>
                 <p><strong><svg class="ikon-label" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16v13H4zM8 7V4h8v3m-8 5h8"/></svg>Fokus:</strong> Segmentasi pelanggan dan interpretasi karakteristik tiap kelompok</p>
@@ -93,7 +119,9 @@
             </div>
 
             <div class="proyek-card">
-                <h3>Analisis Keranjang Belanja dengan Association Rule</h3>
+                <img class="proyek-cover" src="assets/proyek-association.svg" alt="Ilustrasi pola keterkaitan produk dalam analisis keranjang belanja">
+                <h3><svg class="ikon-proyek" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l2.2 11.2a2 2 0 0 0 2 1.6h7.9a2 2 0 0 0 1.9-1.4L21 8H6"/><circle cx="10" cy="20" r="1"/><circle cx="18" cy="20" r="1"/><path d="m10 10 2 2 3-3"/></svg>Analisis Keranjang Belanja dengan Association Rule</h3>
+                <div class="proyek-tags" aria-label="Topik proyek"><span>Market basket</span><span>Association rule</span><span>Pola transaksi</span></div>
                 <p><strong><svg class="ikon-label" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v14H4zM8 9h8m-8 4h8m-8 4h5"/></svg>Deskripsi:</strong> Proyek ini menganalisis data transaksi menggunakan pendekatan Market Basket Analysis untuk menemukan pola keterkaitan antarproduk yang dibeli bersama. Temuan aturan asosiasi dapat dimanfaatkan sebagai bahan pertimbangan dalam penataan produk, promosi, dan rekomendasi produk.</p>
                 <p><strong><svg class="ikon-label" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v18m7-14H9.5a3.5 3.5 0 0 0 0 7H15a3.5 3.5 0 0 1 0 7H5"/></svg>Metode:</strong> Market Basket Analysis dan Association Rule Mining</p>
                 <p><strong><svg class="ikon-label" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16v13H4zM8 7V4h8v3m-8 5h8"/></svg>Fokus:</strong> Identifikasi kombinasi produk dan interpretasi aturan asosiasi</p>
@@ -101,7 +129,9 @@
             </div>
 
             <div class="proyek-card">
-                <h3>Prediksi Pendapatan Per Kapita</h3>
+                <img class="proyek-cover" src="assets/proyek-pendapatan.svg" alt="Ilustrasi tren pendapatan per kapita dan garis prediksi">
+                <h3><svg class="ikon-proyek" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 3v18h18"/><path d="m6 15 4-4 3 2 6-7"/><path d="M15 6h4v4"/></svg>Prediksi Pendapatan Per Kapita</h3>
+                <div class="proyek-tags" aria-label="Topik proyek"><span>Regresi</span><span>Prediksi</span><span>Python</span></div>
                 <p><strong><svg class="ikon-label" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v14H4zM8 9h8m-8 4h8m-8 4h5"/></svg>Deskripsi:</strong> Proyek analisis statistik untuk mempelajari dan memprediksi pendapatan per kapita di masa mendatang. Menghasilkan wawasan yang dapat mendukung penyusunan kebijakan ekonomi dan pembangunan daerah.</p>
                 <p><strong><svg class="ikon-label" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v18m7-14H9.5a3.5 3.5 0 0 0 0 7H15a3.5 3.5 0 0 1 0 7H5"/></svg>Metode:</strong> Analisis Regresi, Interpretasi Hasil Statistik, Prediksi</p>
                 <p><strong><svg class="ikon-label" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16v13H4zM8 7V4h8v3m-8 5h8"/></svg>Alat:</strong> Software Statistik (Python), Pengolahan Data Sekunder, Publikasi Web</p>
@@ -109,7 +139,9 @@
             </div>
 
             <div class="proyek-card">
-                <h3>Deteksi Outlier Kesejahteraan Rumah Tangga di Aceh</h3>
+                <img class="proyek-cover" src="assets/proyek-outlier.svg" alt="Ilustrasi sebaran data kesejahteraan dengan titik pencilan">
+                <h3><svg class="ikon-proyek" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19V5m0 14h16"/><circle cx="8" cy="14" r="1.5"/><circle cx="12" cy="11" r="1.5"/><circle cx="16" cy="14" r="1.5"/><circle cx="19" cy="6" r="2"/><path d="m18 5 2 2m0-2-2 2"/></svg>Deteksi Outlier Kesejahteraan Rumah Tangga di Aceh</h3>
+                <div class="proyek-tags" aria-label="Topik proyek"><span>K-Medoids</span><span>Deteksi outlier</span><span>Decision tree</span></div>
                 <p><strong><svg class="ikon-label" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v14H4zM8 9h8m-8 4h8m-8 4h5"/></svg>Deskripsi:</strong> Penelitian ini memperbaiki kategori kesejahteraan dan mendeteksi outlier pada data rumah tangga di kota-kota Aceh.</p>
                 <p><strong><svg class="ikon-label" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v18m7-14H9.5a3.5 3.5 0 0 0 0 7H15a3.5 3.5 0 0 1 0 7H5"/></svg>Metode:</strong> Clustering K-Modes dan K-Medoids, serta klasifikasi Decision Tree</p>
                 <p><strong><svg class="ikon-label" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19V5m0 14h16M8 15l3-4 3 2 5-7"/></svg>Hasil:</strong> K-Medoids mencapai akurasi perbaikan kategori 96,17% dan mendeteksi 2.326 outlier dari 60.744 data. Decision Tree mencapai akurasi klasifikasi 98,37% setelah data diperbaiki dan dibersihkan.</p>
@@ -125,29 +157,28 @@
 
             <div class="pengalaman-item">
                 <h3>Sekretaris</h3>
-                <p class="instansi"><svg class="ikon-inline" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-5h6v5M9 9h.01M15 9h.01"/></svg>Brigade Pangan Tuah Talamau Pasaman Barat | Juli 2025 – Sekarang</p>
+                <p class="instansi"><svg class="ikon-inline" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-5h6v5M9 9h.01M15 9h.01"/></svg>Brigade Pangan Tuah Talamau Pasaman Barat | Pasaman Barat | Juli 2025 – Sekarang</p>
                 <ul>
-                    <li>Mengelola korespondensi dan pengarsipan dokumen operasional secara sistematis.</li>
-                    <li>Menyusun laporan berkala dan memvalidasi database yang digunakan.</li>
-                    <li>Mengatur agenda pertemuan serta menjadi penghubung antar-divisi terkait data dan informasi.</li>
+                    <li>Mengelola korespondensi dan arsip operasional agar dokumen mudah ditelusuri dan tersedia tepat waktu.</li>
+                    <li>Mengatur agenda pertemuan serta menjadi penghubung antar-divisi.</li>
                 </ul>
             </div>
 
             <div class="pengalaman-item">
                 <h3>Staf Bidang Statistik (Magang)</h3>
-                <p class="instansi"><svg class="ikon-inline" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-5h6v5M9 9h.01M15 9h.01"/></svg>Dinas Komunikasi, Informatika dan Statistik Kota Banda Aceh | Februari 2023 – Juni 2023</p>
+                <p class="instansi"><svg class="ikon-inline" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-5h6v5M9 9h.01M15 9h.01"/></svg>Dinas Komunikasi, Informatika dan Statistik Kota Banda Aceh | Banda Aceh | Februari 2023 – Juni 2023</p>
                 <ul>
                     <li>Mengumpulkan data statistik sektoral dari Disdukcapil, Satpol PP WH, Disnaker, BPBD, dan Damkar Kota Banda Aceh.</li>
-                    <li>Mengelola data statistik OPD untuk sistem Pelayanan Satu Pintu Kota Banda Aceh.</li>
-                    <li>Menyusun laporan dan analisis yang mendukung penyusunan kebijakan publik terkait ketersediaan data sektoral.</li>
+                    <li>Membersihkan dan mengolah data statistik sektoral OPD menggunakan Excel untuk mempercepat penyusunan laporan bulanan.</li>
+                    <li>Menyusun laporan dan analisis untuk mendukung kebijakan publik terkait ketersediaan data sektoral di Kota Banda Aceh.</li>
                 </ul>
             </div>
 
             <div class="pengalaman-item">
-                <h3>Staf Peneliti Bidang Hidrologi (Magang)</h3>
-                <p class="instansi"><svg class="ikon-inline" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-5h6v5M9 9h.01M15 9h.01"/></svg>Tsunami and Disaster Mitigation Research Center (TDMRC) Aceh | Juni 2022 – Juli 2022</p>
+                <h3>Staf Peneliti Hidrologi (Magang)</h3>
+                <p class="instansi"><svg class="ikon-inline" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-5h6v5M9 9h.01M15 9h.01"/></svg>Tsunami and Disaster Mitigation Research Center (TDMRC) Aceh | Banda Aceh | Juni 2022 – Juli 2022</p>
                 <ul>
-                    <li>Mengelola data dan dokumen peristiwa bencana hidrologi yang pernah terjadi di wilayah Aceh.</li>
+                    <li>Mengelola data dan dokumen bencana hidrologi.</li>
                     <li>Menyusun jadwal pertanian berdasarkan kondisi hidrologi menggunakan perangkat lunak Cropwat.</li>
                 </ul>
             </div>

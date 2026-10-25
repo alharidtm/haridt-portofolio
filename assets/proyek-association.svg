@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="40" y1="20" x2="940" y2="520" gradientUnits="userSpaceOnUse"><stop stop-color="#171735"/><stop offset="1" stop-color="#292748"/></linearGradient>
+  </defs>
+  <rect width="960" height="520" rx="22" fill="url(#bg)"/>
+  <rect x="46" y="44" width="868" height="432" rx="16" stroke="#fff" stroke-opacity=".12"/>
+  <text x="84" y="98" fill="#FFD21F" font-family="Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="3">MARKET BASKET ANALYSIS</text>
+  <text x="84" y="132" fill="#B7B7CB" font-family="Arial,sans-serif" font-size="18">Menemukan produk yang sering dibeli bersama</text>
+  <path d="m281 266 184-96m0 0 214 96m-214-96v203m-184-107 184 107m214-107L465 373" stroke="#FFD21F" stroke-opacity=".55" stroke-width="4"/>
+  <circle cx="281" cy="266" r="74" fill="#FFD21F" fill-opacity=".1" stroke="#FFD21F" stroke-opacity=".6" stroke-width="2"/>
+  <circle cx="465" cy="170" r="74" fill="#FFD21F" fill-opacity=".15" stroke="#FFD21F" stroke-width="3"/>
+  <circle cx="679" cy="266" r="74" fill="#FFD21F" fill-opacity=".1" stroke="#FFD21F" stroke-opacity=".6" stroke-width="2"/>
+  <circle cx="465" cy="373" r="74" fill="#FFD21F" fill-opacity=".1" stroke="#FFD21F" stroke-opacity=".6" stroke-width="2"/>
+  <g stroke="#FFE768" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M253 274h56l-7-34h-42l-7 34Zm6 0 6 31h38l6-31m-35-35v35m16-35v35"/>
+    <path d="M438 171h54l-8 25h-38l-8-25Zm7 0-3-15h-12m22 41-8 18m30-18 8 18"/>
+    <path d="M650 282h58l-8-38h-43l-7 38Zm8 0 5 24h34l5-24m-34-38v38m16-38v38"/>
+    <path d="M439 376h52m-43-10 7-27h20l7 27m-37 0v17h42v-17m-29-44v-13m13 13v-13"/>
+  </g>
+  <rect x="396" y="443" width="138" height="34" rx="17" fill="#FFD21F" fill-opacity=".13"/><text x="421" y="466" fill="#FFE768" font-family="Arial,sans-serif" font-size="15" font-weight="700">ASSOCIATION RULE</text>
+</svg>

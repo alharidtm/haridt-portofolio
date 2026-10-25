@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="40" y1="10" x2="920" y2="510" gradientUnits="userSpaceOnUse"><stop stop-color="#171735"/><stop offset="1" stop-color="#292748"/></linearGradient>
+    <linearGradient id="area" x1="500" y1="170" x2="500" y2="420" gradientUnits="userSpaceOnUse"><stop stop-color="#FFD21F" stop-opacity=".3"/><stop offset="1" stop-color="#FFD21F" stop-opacity="0"/></linearGradient>
+  </defs>
+  <rect width="960" height="520" rx="22" fill="url(#bg)"/>
+  <rect x="46" y="44" width="868" height="432" rx="16" stroke="#fff" stroke-opacity=".12"/>
+  <text x="84" y="98" fill="#FFD21F" font-family="Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="3">INCOME FORECAST</text>
+  <text x="84" y="132" fill="#B7B7CB" font-family="Arial,sans-serif" font-size="18">Tren pendapatan per kapita dari waktu ke waktu</text>
+  <path d="M132 184v225h700" stroke="#fff" stroke-opacity=".38" stroke-width="2"/>
+  <path d="M132 352h700M132 297h700M132 241h700" stroke="#fff" stroke-opacity=".1" stroke-width="1" stroke-dasharray="6 9"/>
+  <text x="88" y="191" fill="#8989A3" font-family="Arial,sans-serif" font-size="13">TINGGI</text>
+  <text x="99" y="410" fill="#8989A3" font-family="Arial,sans-serif" font-size="13">RENDAH</text>
+  <path d="m158 362 115-42 111 18 109-74 104-19 104-82 97-25v271H158V362Z" fill="url(#area)"/>
+  <path d="m158 362 115-42 111 18 109-74 104-19 104-82 97-25" stroke="#FFD21F" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m597 245 104-82 97-25" stroke="#FFE768" stroke-width="5" stroke-linecap="round" stroke-dasharray="9 10"/>
+  <g fill="#FFD21F" stroke="#171735" stroke-width="5"><circle cx="158" cy="362" r="9"/><circle cx="273" cy="320" r="9"/><circle cx="384" cy="338" r="9"/><circle cx="493" cy="264" r="9"/><circle cx="597" cy="245" r="9"/><circle cx="701" cy="163" r="9"/><circle cx="798" cy="138" r="9"/></g>
+  <rect x="674" y="169" width="142" height="38" rx="19" fill="#FFD21F" fill-opacity=".13"/><text x="700" y="194" fill="#FFE768" font-family="Arial,sans-serif" font-size="15" font-weight="700">PREDIKSI</text>
+  <text x="153" y="443" fill="#B7B7CB" font-family="Arial,sans-serif" font-size="14">PERIODE</text>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="70" y1="30" x2="890" y2="500" gradientUnits="userSpaceOnUse"><stop stop-color="#171735"/><stop offset="1" stop-color="#292748"/></linearGradient>
+    <linearGradient id="gold" x1="173" y1="110" x2="514" y2="405" gradientUnits="userSpaceOnUse"><stop stop-color="#FFE768"/><stop offset="1" stop-color="#F1B900"/></linearGradient>
+  </defs>
+  <rect width="960" height="520" rx="22" fill="url(#bg)"/>
+  <path d="M0 420c164-82 230-37 367-97s244-186 593-105v302H0V420Z" fill="#FFD21F" fill-opacity=".035"/>
+  <rect x="46" y="44" width="868" height="432" rx="16" stroke="#fff" stroke-opacity=".12"/>
+  <text x="84" y="98" fill="#FFD21F" font-family="Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="3">CUSTOMER SEGMENTS</text>
+  <text x="84" y="132" fill="#B7B7CB" font-family="Arial,sans-serif" font-size="18">Pola pelanggan dalam beberapa kelompok</text>
+  <path d="M480 268 303 203m177 65 177-65m-177 65v115" stroke="#fff" stroke-opacity=".23" stroke-width="3" stroke-dasharray="8 10"/>
+  <circle cx="480" cy="268" r="53" fill="#FFD21F" fill-opacity=".12" stroke="#FFD21F" stroke-width="3"/>
+  <circle cx="480" cy="249" r="13" fill="#FFD21F"/><path d="M452 291c4-18 15-27 28-27s24 9 28 27" stroke="#FFD21F" stroke-width="8" stroke-linecap="round"/>
+  <g fill="url(#gold)">
+    <circle cx="235" cy="185" r="10"/><circle cx="272" cy="208" r="8"/><circle cx="302" cy="176" r="7"/><circle cx="225" cy="226" r="7"/><circle cx="268" cy="247" r="10"/><circle cx="316" cy="222" r="9"/>
+    <circle cx="652" cy="185" r="10"/><circle cx="691" cy="205" r="8"/><circle cx="728" cy="177" r="7"/><circle cx="650" cy="227" r="7"/><circle cx="698" cy="246" r="10"/><circle cx="744" cy="219" r="9"/>
+    <circle cx="437" cy="396" r="10"/><circle cx="475" cy="411" r="8"/><circle cx="518" cy="391" r="7"/><circle cx="455" cy="438" r="7"/><circle cx="502" cy="435" r="10"/>
+  </g>
+  <circle cx="235" cy="185" r="28" stroke="#FFD21F" stroke-opacity=".32"/><circle cx="691" cy="205" r="28" stroke="#FFD21F" stroke-opacity=".32"/><circle cx="475" cy="411" r="28" stroke="#FFD21F" stroke-opacity=".32"/>
+  <rect x="94" y="355" width="116" height="44" rx="22" fill="#FFD21F" fill-opacity=".12"/><text x="119" y="383" fill="#FFE768" font-family="Arial,sans-serif" font-size="16">SEGMENT A</text>
+  <rect x="750" y="355" width="116" height="44" rx="22" fill="#FFD21F" fill-opacity=".12"/><text x="775" y="383" fill="#FFE768" font-family="Arial,sans-serif" font-size="16">SEGMENT B</text>
+</svg>
